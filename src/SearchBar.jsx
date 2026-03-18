@@ -7,7 +7,7 @@ function SearchBar({ onSearch }) {
       rounded-lg" value={city}
       onChange={(e) => setCity(e.target.value)}/>
       <button onClick={() => onSearch(city)} className="bg-blue-500 text-white px-4 py-2 
-      rounded-lg hover:bg-blue-600"> 🔍 </button>
+      rounded-lg w-full hover:bg-blue-600"> 🔍 </button>
     </div>
   );
 }
