@@ -1,25 +1,24 @@
-Simple Weather App
+Simple Weather App:
 A simple weather application built with React.js and Tailwind CSS that allows users to search for a city and view its current weather information such as temperature and humidity using the OpenWeather API.
 
-🚀 Live Demo
+🚀 Live Demo:
 🔗 https://simplereactjsweatherapp.netlify.app/
 
-📌 Features
+📌 Features:
 🌍 Search weather by city name
 🌡 Displays current temperature
 💧 Shows humidity level
 ❌ Displays error message for invalid city
-
 🎨 Clean and responsive UI using Tailwind CSS
 ⚡ Fetches real-time weather data from OpenWeather API
 
-🛠 Tech Stack
+🛠 Tech Stack:
 React.js
 Tailwind CSS
 OpenWeather API
 Netlify (Deployment)
 
-📂 Project Structure
+📂 Project Structure:
 src
  ├── App.jsx
  ├── SearchBar.jsx
@@ -41,7 +40,7 @@ npm run dev
 This project uses the OpenWeather API to fetch real-time weather data.
 🔗 https://openweathermap.org/api
 
-👩‍💻 Author
+👩‍💻 Author:
 Mahalakshmi Gopinath
 📧 Email: mahagmaha05@gmail.com
 🐙 GitHub: https://github.com/MahalakshmiGopinath19
