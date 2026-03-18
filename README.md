@@ -1,16 +1,48 @@
-# React + Vite
+Simple Weather App
+A simple weather application built with React.js and Tailwind CSS that allows users to search for a city and view its current weather information such as temperature and humidity using the OpenWeather API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo
+🔗 https://simplereactjsweatherapp.netlify.app/
 
-Currently, two official plugins are available:
+📌 Features
+🌍 Search weather by city name
+🌡 Displays current temperature
+💧 Shows humidity level
+❌ Displays error message for invalid city
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🎨 Clean and responsive UI using Tailwind CSS
+⚡ Fetches real-time weather data from OpenWeather API
 
-## React Compiler
+🛠 Tech Stack
+React.js
+Tailwind CSS
+OpenWeather API
+Netlify (Deployment)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📂 Project Structure
+src
+ ├── App.jsx
+ ├── SearchBar.jsx
+ ├── WeatherCard.jsx
+ ├── main.jsx
+ └── index.css
+⚙️ Installation & Setup
 
-## Expanding the ESLint configuration
+If you want to run this project locally:
+1️⃣ Clone the repository
+git clone https://github.com/MahalakshmiGopinath19/simple-weather-app.git
+2️⃣ Navigate to the project folder
+cd simple-weather-app
+3️⃣ Install dependencies
+npm install
+4️⃣ Start the development server
+npm run dev
+🌍 API Used
+This project uses the OpenWeather API to fetch real-time weather data.
+🔗 https://openweathermap.org/api
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👩‍💻 Author
+Mahalakshmi Gopinath
+📧 Email: mahagmaha05@gmail.com
+🐙 GitHub: https://github.com/MahalakshmiGopinath19
+💼 LinkedIn: https://www.linkedin.com/in/mahagopi19
